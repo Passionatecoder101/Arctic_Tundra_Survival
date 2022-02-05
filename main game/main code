@@ -1,0 +1,30 @@
+using System;
+
+namespace ArcticSurvival
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            //Jamie Curtis is just the placeholder name, players are able to name their character whatever they please
+
+            string CharacterName = "Jamie Curtis";
+
+            Console.WriteLine("Welcome to Arctic Tundra Survival!");
+
+            Console.WriteLine("Press ENTER to begin");
+
+            Console.ReadKey();
+
+            Console.Clear();
+            
+            Console.WriteLine("What is your name?");
+
+            Console.ReadKey();
+
+            CharacterName = Console.ReadLine();
+
+            Console.WriteLine("Ahhh, so your name is " + CharacterName + "? A fine name for an adventurer like you.");
+        }
+    }
+}
